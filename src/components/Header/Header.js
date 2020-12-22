@@ -13,8 +13,8 @@ const Header = () => {
     <div className="nav">
       <div className="nav-container">
         <div className="nav-brand">MEKALIC</div>
-        <div>
-          <FontAwesomeIcon icon={faAlignRight} className="icon" size="2x" />
+        <div className="icon">
+          <FontAwesomeIcon icon={faAlignRight} size="2x" />
         </div>
       </div>
     </div>
