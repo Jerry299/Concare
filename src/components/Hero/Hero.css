@@ -24,7 +24,7 @@
   .hero-wrapper {
     display: flex;
     margin: 2rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #ffffff;
   }
   .hero-header {
@@ -35,15 +35,23 @@
     background-size: cover;
     background-position: center;
     height: 70vh;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 50%;
+    text-transform: capitalize;
   }
   .hero-header .header-one {
+    font-size: 2rem;
   }
   .hero-header .header-two {
+    font-size: 1.7rem;
   }
   .hero-header .header-three {
+    font-size: 1.9rem;
   }
   .hero-header .header-four {
+    font-size: 1.5rem;
   }
   .hero-header .header-five {
+    font-size: 1.7rem;
   }
 }
