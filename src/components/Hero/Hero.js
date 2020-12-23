@@ -2,6 +2,8 @@ import React from "react";
 import { Row, Col } from "antd";
 import "./Hero.css";
 
+import CarSvg from "../../images/carSvg.svg";
+
 // image link = https://nigeriantech.com.ng/wp-content/uploads/2020/04/Spotting-a-Good-Mechanic-in-Nigeria-Nigeriantech.com_.ng_.jpg
 
 const Hero = () => {
@@ -31,11 +33,7 @@ const Hero = () => {
         </Col>
         <Col className="hero-photos">
           <div>
-            <img
-              src="https://nigeriantech.com.ng/wp-content/uploads/2020/04/Spotting-a-Good-Mechanic-in-Nigeria-Nigeriantech.com_.ng_.jpg"
-              className="hero-img"
-              alt=""
-            />
+            <img src={CarSvg} className="hero-img" alt="" />
           </div>
         </Col>
       </Row>
